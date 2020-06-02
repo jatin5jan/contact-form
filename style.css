@@ -10,7 +10,7 @@ body {
 
 .main {
 
-    height: 450px;
+    height: 550px;
     width: 70%;
     margin: 5% auto;
     background-color: white;
@@ -19,7 +19,7 @@ body {
     box-shadow: 0 0 5px white; 
 }
 
-.main .right {
+.main .main-right {
     background: url(4lImLyA.jpg);
     float: right;
     width: 50%;
@@ -28,7 +28,7 @@ body {
     border-radius: 0 15px 15px 0;
 }
 
-.right .content {
+.main-right .main-right-content {
     width: 80%;
     margin: auto;
     padding-top: 60px;
@@ -37,27 +37,27 @@ body {
 
    
 }
-.right .content i{
+.main-right .main-right-content i{
     width: 50px;
     text-align: center;
     font-size: 35px;
     margin-right: 10px;
 }
 
-.right .content p {
-    padding: 15px;
+.main-right .main-right-content p {
+    padding: 25px;
     font-size: 18px;
     }
 
 
-.main .left {
+.main .main-left {
     width: 50%;
     height: 400px;
     float: left;
     padding-top: 50px;
 }
 
-.left form {
+.main-left form {
     width: 80%;
     margin: auto;
 
@@ -98,12 +98,12 @@ form input[type=submit] {
     padding: 7px 0;
 }
 
-.left .title {
+.main-left .main-left-title {
     margin: auto;
     width: 100%;
 }
 
-.title h1 {
+.main-left-title h1 {
     text-align: center;
     padding: 10px;
 }
@@ -126,7 +126,7 @@ margin-right: 200px;
     height: 1000px;
     width:80%;
 }
-.main .right {
+.main .main-right {
     margin-top: 440px;
     margin-left: 0px;
     float:right;
@@ -136,7 +136,7 @@ margin-right: 200px;
 
 
 
-.main .left {
+.main .main-left {
     margin-top: 40px;
     margin-left: 0px;
     
@@ -146,11 +146,17 @@ margin-right: 200px;
 
 }
 
-.social-links {
-padding-bottom: 20px;
-color: #000000;
-}
 
+
+.social-links {
+    
+    margin:auto;
+    color: #000000;
+    
+    
+    
+    
+    }
 
 
 
