@@ -107,23 +107,31 @@ form input[type=submit] {
     text-align: center;
     padding: 10px;
 }
+.social-links {
+    
+    margin:auto;
+    color: #000000;
+ }
+ .social-links-twitter{
+    padding: 30px; margin-left: 385px;
+ }
+
+
+ .social-links-facebook{
+    padding: 30px;
+ }
+.social-links-instagram{
+    padding: 30px;
+} 
+.social-links-linkedin{
+    padding: 30px; 
+}
 
 
 @media (max-width:768px){
-/* .right{
-margin-top:330px ;
-margin-right: 200px;
 
-}
-.main{height:1100px;
-
-}
-
-.content{
-    margin-left: 0px;
-} */
 .main{
-    height: 1000px;
+    height: 1200px;
     width:80%;
 }
 .main .main-right {
@@ -144,19 +152,25 @@ margin-right: 200px;
     width:80%;
 }
 
+.social-links{
+    margin-top: 950px;
+}
+.social-links-twitter{
+    
+    margin-left: 2px;
 }
 
+.social-links-facebook{
+    
+    margin-left: -19px;
+}
 
+.social-links-linkedin{
+    
+    margin-left: 76px;
+}
+}
 
-.social-links {
-    
-    margin:auto;
-    color: #000000;
-    
-    
-    
-    
-    }
 
 
 
