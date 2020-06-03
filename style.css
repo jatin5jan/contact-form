@@ -50,14 +50,14 @@ body {
     }
 
 
-.main .main-left {
+.main .main-left1 {
     width: 50%;
     height: 400px;
     float: left;
     padding-top: 50px;
 }
 
-.main-left form {
+.main-left1 form {
     width: 80%;
     margin: auto;
 
@@ -74,6 +74,10 @@ form input {
     border-bottom: 2px solid rgba(0, 0, 0, .3);
 
 
+}
+
+.main .main-left2{
+    display: none;
 }
 
 form textarea {
@@ -98,7 +102,7 @@ form input[type=submit] {
     padding: 7px 0;
 }
 
-.main-left .main-left-title {
+.main-left1 .main-left1-title {
     margin: auto;
     width: 100%;
 }
@@ -109,11 +113,15 @@ form input[type=submit] {
 }
 .social-links {
     
-    margin:auto;
+    /*margin:auto;*/
     color: #000000;
+    margin-top:461px ;
+    margin-left:644px;
  }
  .social-links-twitter{
-    padding: 30px; margin-left: 385px;
+   /* padding: 30px; margin-left: 385px;*/
+   margin-left: -326px;
+   margin-top: -378px;
  }
 
 
@@ -135,7 +143,8 @@ form input[type=submit] {
     width:80%;
 }
 .main .main-right {
-    margin-top: 440px;
+    /*margin-top: 440px;*/
+    margin-top: -26px;
     margin-left: 0px;
     float:right;
     position: absolute;
@@ -144,16 +153,21 @@ form input[type=submit] {
 
 
 
-.main .main-left {
+.main .main-left1 {
     margin-top: 40px;
     margin-left: 0px;
     
     position: absolute;
     width:80%;
+    display: none;
+}
+.main .main-left2{
+    display: inline-block;
 }
 
 .social-links{
-    margin-top: 950px;
+ /*   margin-top: 950px;*/
+ margin-top: 500px;
 }
 .social-links-twitter{
     
