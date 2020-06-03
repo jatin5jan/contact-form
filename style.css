@@ -5,7 +5,9 @@
 }
 
 body {
-    background: linear-gradient(to left, rgba(236, 0, 140, .7), rgba(252, 103, 103, .7));
+    /*background: linear-gradient(to left, rgba(236, 0, 140, .7), rgba(252, 103, 103, .7));*/
+    background-color: rgb(151, 96, 198);
+
 }
 
 .main {
