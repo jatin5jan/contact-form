@@ -5,7 +5,11 @@
 }
 
 body {
-    background: linear-gradient(to left, rgba(236, 0, 140, .7), rgba(252, 103, 103, .7));
+   /* background: linear-gradient(to left, rgba(236, 0, 140, .7), rgba(252, 103, 103, .7));*/
+/*   --button-color: rgb(1, 202, 182);  */
+
+   background-color: rgb(151, 96, 198);
+
 }
 
 .main {
@@ -18,6 +22,7 @@ body {
     border: 1px solid white;
     box-shadow: 0 0 5px white; 
 }
+
 
 .main .main-right {
     background: url(4lImLyA.jpg);
